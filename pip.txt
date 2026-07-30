@@ -1,0 +1,17 @@
+python.exe -m pip install --upgrade pip
+pip install haystack-ai python-dotenv promptfoo
+pip install haystack-ai openai python-dotenv
+pip install langchain langchain-ollama
+pip install langchain-groq python-dotenv
+
+pip install "nltk>=3.9.1"
+for weburl
+pip install trafilatura	
+python -c "import nltk; nltk.download('punkt_tab')"
+
+for pdf
+pip install pypdf
+
+# pip install ollama-haystack
+# ollama pull nomic-embed-text
+# ollama pull llama3.2
