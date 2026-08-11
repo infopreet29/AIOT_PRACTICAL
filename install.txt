@@ -1,0 +1,9 @@
+pip install autogen-agentchat autogen-ext[openai] crewai semantic-kernel python-dotenv
+pip install autogen-agentchat autogen-ext[openai] python-dotenv
+pip install crewai python-dotenv
+pip install "crewai[tools]" python-dotenv
+pip install semantic-kernel python-dotenv
+pip install duckduckgo-search fpdf2
+pip install ddgs
+pip install duckduckgo-search
+pip install autogen-agentchat autogen-ext[openai] ddgs reportlab python-dotenv
