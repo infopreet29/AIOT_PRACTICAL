@@ -1,0 +1,7 @@
+run in command prompt
+pip install fastapi uvicorn
+
+after save main.py
+uvicorn main:app --reload
+
+streamlit run Call_FastAPI_2.py
